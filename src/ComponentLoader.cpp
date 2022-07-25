@@ -35,8 +35,8 @@
 #include <QMap>
 #include <QMetaEnum>
 #include <QPluginLoader>
-
-#include "spdlog.h"
+#define SPDLOG_WARN
+#define SPDLOG_INFO
 
 constexpr unsigned int QtMajorBitMask = 0xFFFF0000;
 constexpr unsigned int QtMajorBitShift = 16;
